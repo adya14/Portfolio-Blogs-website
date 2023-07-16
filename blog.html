@@ -1,89 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="assets/css/blog.css">
 
-        <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+<head>
+    <link rel="icon" type="image/png" href="assets/img/tab2.png">
 
-        <title>Blogs site</title>
-    </head>
-    <body>
-        
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">Adya Blogs</a>
-                </div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/blog.css">
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="portfolio.html" class="nav__link">Home</a></li>
-                    </ul>
-                </div>
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
-        <!--===== Blogs =====-->
-        <section class="home bd-grid" id="home">
-            <div class="home__data">
-                <h1 class="home__title">Welcome!<br>To my <span class="home__title-color">Blogs website</span></h1>
+    <title>Ady'a Blogs</title>
+</head>
+
+<body>
+
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Adya Blogs</a>
             </div>
-            
-        </section>        
 
-          <!--===== CONTACT =====-->
-<section class="contact section" id="contact">
-    <h2 class="section-title">Contact</h2>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                  <li class="nav__item"><a href="portfolio.html" class="nav__link">&#9664; Home</a></li>
+                </ul>
+              </div>
+              
 
-    <div class="contact__container bd-grid">
-        <div class="contact__info">
-            <h3 class="contact__subtitle">Get in touch</h3>
-            <p class="contact__text">If you want more blogs written on any technology related topic, connect with me through:</p>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
 
-            <div class="contact__info">
-                <div class="contact__data">
-                    <a href="mailto:yourname@example.com" class="contact__link">
-                        <i class="bx bx-envelope contact__icon"></i>
-                        adyatwr@gmail.com
-                    </a>
+    <!--===== welcome =====-->
+    <section class="home bd-grid" id="home">
+        <div class="home__data">
+            <h1 class="home__title"><br><span class="home__title-color">Welcome!</span><br>To the Blogs section</h1>
+            <p>Here you can explore a curated selection of articles on topics I'm passionate about.</p>
+            <p>In addition to my personal writings, I've had the privilege of working as a technical Blog writer during
+                my internship with Coding Ninjas. This experience allowed me to contribute to their platform, sharing
+                valuable insights and knowledge.</p>
+            <p>Feel free to dive into the diverse range of blogs available here. Whether you're seeking inspiration,
+                seeking to expand your technical know-how, or simply looking to explore new ideas, you'll find it all
+                within these pages.</p>
+            <h3>Happy reading!</h3>
+        </div>
+    </section>
+
+    <!--===== Blog Section =====-->
+    <section class="blogs section" id="blogs">
+        <h2 class="section-title">Blogs</h2>
+
+        <div class="blogs__container bd-grid">
+            <div class="blog">
+                <a href="https://www.codingninjas.com/studio/library/creating-a-basic-project-in-sinatra">
+                  <div class="blog__img-container">
+                    <img src="assets/img/blog.png" alt="Blog Image" class="blog__img">
+                  </div>
+                  <div class="blog__content">
+                    <h3 class="blog__title">Creating a Basic Project in Sinatra</h3>
+                    <a href="https://www.codingninjas.com/studio/library/creating-a-basic-project-in-sinatra" class="blog__link">Read More</a>
+                  </div>
+                </a>
+              </div>
+              
+
+            <div class="blog">
+            <a href="https://www.codingninjas.com/studio/library/devops-engineer-at-nagarro">
+                <div class="blog__img-container">
+                    <img src="assets/img/blog2.png" alt="Blog Image" class="blog__img">
                 </div>
-                <div class="contact__data">
-                    <a href="https://www.linkedin.com/in/adya-tiwari-71a06b21b/" class="contact__link">
-                        <i class="bx bxl-linkedin-square contact__icon"></i>
-                        LinkedIn
-                    </a>
+                <div class="blog__content">
+                    <h3 class="blog__title">DevOps Engineer at Nagarro *Prep Guide*
+                    </h3>
+                    <a href="https://www.codingninjas.com/studio/library/devops-engineer-at-nagarro"
+                        class="blog__link">Read More</a>
                 </div>
-                <div class="contact__data">
-                    <a href="https://github.com/adya14" class="contact__link">
-                        <i class="bx bxl-github contact__icon"></i>
-                        GitHub
-                    </a>
+            </a>
+            </div>
+
+            <div class="blog">
+            <a href="https://www.codingninjas.com/studio/library/association-rule-learning">
+                <div class="blog__img-container">
+                    <img src="assets/img/blog3.png" alt="Blog Image" class="blog__img">
+                </div>
+                <div class="blog__content">
+                    <h3 class="blog__title">Association Rule Learning
+                    </h3>
+                    <a href="https://www.codingninjas.com/studio/library/association-rule-learning"
+                        class="blog__link">Read More</a>
+                </div>
+            </a>
+            </div>
+
+            <div class="blog">
+                <a href="https://www.codingninjas.com/studio/library/other-roles-at-facebook">
+                <div class="blog__img-container">
+                    <img src="assets/img/blog4.png" alt="Blog Image" class="blog__img">
+                </div>
+                <div class="blog__content">
+                    <h3 class="blog__title">Other roles at Facebook *Prep Guide*
+                    </h3>
+                    <a href="https://www.codingninjas.com/studio/library/other-roles-at-facebook"
+                        class="blog__link">Read More</a>
+                </div>
+                </a>
+            </div>
+
+            <div class="blog">
+                <div class="blog__content">
+                    <h3 class="blog__title">Here is a list of more blogs-</h3>
+                    <a href="https://www.codingninjas.com/studio/library/ado-net-interview-questions"
+                        class="blog__link">
+                        <i class="bx bx-pencil"></i> ADO.net interview questions</a>
+                    <a href="https://www.codingninjas.com/studio/library/email-validator" class="blog__link">
+                        <i class="bx bx-pencil"></i> Email validator</a>
+                    <a href="https://www.codingninjas.com/studio/library/tableau-interview-questions"
+                        class="blog__link">
+                        <i class="bx bx-pencil"></i> Tableu interview-questions *Prep guide*</a>
+                    <a href="https://www.codingninjas.com/studio/library/sql-server-date-functions" class="blog__link">
+                        <i class="bx bx-pencil"></i> sql server date functions</a>
+                    <a href="https://www.codingninjas.com/studio/library/ui-engineer-at-linkedin" class="blog__link">
+                        <i class="bx bx-pencil"></i> UI engineer at linkedin *Prep Guide*</a>
+                    <a href="https://www.codingninjas.com/studio/library/genres-in-gaming" class="blog__link">
+                        <i class="bx bx-pencil"></i> genres-in-gaming</a>
+                    <a href="https://www.codingninjas.com/studio/library/restful---statelessness" class="blog__link">
+                        <i class="bx bx-pencil"></i> restful---statelessness</a>
+                    <a href="https://www.codingninjas.com/studio/library/weblogic-with-app-gateway" class="blog__link">
+                        <i class="bx bx-pencil"></i> weblogic-with-app-gateway</a>
+                    <a href="https://www.codingninjas.com/studio/library/dropwizard-internals" class="blog__link">
+                        <i class="bx bx-pencil"></i> dropwizard-internals</a>
+                    <a href="https://www.codingninjas.com/studio/library/about-activity-service-api-in-puppet" class="blog__link">
+                        <i class="bx bx-pencil"></i> about-activity-service-api-in-puppet</a>
+                    <a href="https://www.codingninjas.com/studio/library/anomaly-detection-4652" class="blog__link">
+                        <i class="bx bx-pencil"></i> anomaly-detection-4652</a>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <p class="footer__copy">&#169; All rigths reserved</p>
-        </footer>
+    </section>
 
 
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+    <!--===== CONTACT =====-->
+    <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
 
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-        <style>
-            </style>
-    </body>
+        <div class="contact__container bd-grid">
+            <div class="contact__info">
+                <h3 class="contact__subtitle">Get in touch</h3>
+                <p class="contact__text">If you're seeking more blogs on various technology-related topics, feel free to reach out to me:</p>
+
+                <div class="contact__info">
+                    <div class="contact__data">
+                        <a href="mailto:yourname@example.com" class="contact__link">
+                            <i class="bx bx-envelope contact__icon"></i>
+                            adyatwr@gmail.com
+                        </a>
+                    </div>
+                    <div class="contact__data">
+                        <a href="https://www.linkedin.com/in/adya-tiwari-71a06b21b/" class="contact__link">
+                            <i class="bx bxl-linkedin-square contact__icon"></i>
+                            LinkedIn
+                        </a>
+                    </div>
+                    <div class="contact__data">
+                        <a href="https://github.com/adya14" class="contact__link">
+                            <i class="bx bxl-github contact__icon"></i>
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__copy">&#169; All rights reserved</p>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+    <style>
+    </style>
+</body>
+
 </html>
-
