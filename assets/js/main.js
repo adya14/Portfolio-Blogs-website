@@ -41,16 +41,29 @@ function scrollActive() {
 }
 window.addEventListener('scroll', scrollActive);
 
-/*===== SCROLL REVEAL ANIMATION =====*/
+/*===== Scroll Reveal Animation =====*/
 const sr = ScrollReveal({
   origin: 'top',
   distance: '60px',
   duration: 2000,
   delay: 100,
-  // reset: true
 });
 
-sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text, .blogs__container', {});
-sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img, .blogs__img', { delay: 100 });
+sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text', {});
+sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img', { delay: 100 });
 sr.reveal('.home__social-icon', { interval: 100 });
 sr.reveal('.skills__data, .work__img, .contact__input', { interval: 100 });
+
+/*===== Separate Scroll Reveal for Blogs List =====*/
+const blogContainer = document.querySelector('.blogs__container');
+
+if (blogContainer) {
+  sr.reveal('.blogs__container .blog', {
+    origin: 'top',
+    distance: '60px',
+    duration: 2000,
+    delay: 100,
+    interval: 100,
+  });
+}
+
