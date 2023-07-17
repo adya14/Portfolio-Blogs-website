@@ -69,4 +69,3 @@ if (blogContainer) {
     interval: 100,
   });
 }
-
