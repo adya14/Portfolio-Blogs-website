@@ -19,7 +19,7 @@ You can see the live version of the website [here](https://adya14.github.io/Adya
 - HTML
 - CSS
 - JavaScript
-- Bootstrap (optional, if you used it in your website)
+- Bootstrap 
 
 ## Setup and Installation
 
