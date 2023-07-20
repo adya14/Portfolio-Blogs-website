@@ -54,10 +54,6 @@ ul {
   list-style: none;
 }
 
-a {
-  text-decoration: none;
-}
-
 img {
   max-width: 100%;
   height: auto;
@@ -443,3 +439,40 @@ radial-gradient(at 74% 62%, hsla(320,100%,96%,1) 0px, transparent 50%);
     color: var(--first-color);
   }
   
+/* Hide default cursor for the entire body */
+body {
+  cursor: none;
+}
+
+/* Set custom cursor for specific elements */
+.cursor {
+  position: fixed;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #773a94a7;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-70%, -70%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  padding: 50px;
+  color: #333;
+}
+
+a {
+  color: #333; 
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.2s ease-in-out;
+}
+
+/* Hide hand pointer for specific elements */
+a,
+button {
+  cursor: none;
+}
