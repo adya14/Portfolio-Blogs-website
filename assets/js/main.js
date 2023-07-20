@@ -52,7 +52,7 @@ const sr = ScrollReveal({
 sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text, .blogs__container', {}); 
 sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img, .blogs__img', {delay: 100}); 
 sr.reveal('.home__social-icon', {interval: 100}); 
-sr.reveal('.skills__data, .work__img, .contact__input', {interval: 100}); 
+sr.reveal('.skills__data, .work__img', {interval: 100}); 
 sr.reveal('.research__img-container, .research__content', {interval: 100}); 
 
 

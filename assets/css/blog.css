@@ -455,6 +455,7 @@ body {
   z-index: 9999;
   transform: translate(-70%, -70%);
   transition: transform 0.3s ease-in-out;
+  border: 3px solid #c88ee3a7;
 }
 
 .content {
